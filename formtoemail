@@ -42,7 +42,7 @@ function TestEmail(){
 	//Send the message. Replace Email and Subject static fields below with correct information.
 function SendEmailMessage(message){
     MailApp.sendEmail({
-      to: 'eml02d@acu.edu',
+      to: 'EMAIL@DOMAIN.COM',
       subject: 'Form Response Notification',
       body: message,
     })
